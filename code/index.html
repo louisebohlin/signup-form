@@ -5,33 +5,42 @@
 </head>
 <body>
 
-<form action="http://httpbin.org/anything" method="post">
+<div class="container">
+
+  <form action="http://httpbin.org/anything" method="post">
+
+    <div class="header">
+    <h2>Create an account</h2>
+    <p>
+      By creating an account, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders and more.
+      </p>
+    </div>
 
   <div class="field">
-    <label>First name
+    <label>First name *
     <input type="text" name="firstname" required/>
     </label>
   </div>
 
   <div class="field">
-    <label>Last name
+    <label>Last name *
     <input type="text" name="lastname" required/>
     </label>
   </div>
 
   <div class="field">
-    <label>Email adress
+    <label>Email adress *
     <input type="email" name="email" required/>
     </label>
   </div>
 
   <div class="field">
-    <label>Password
+    <label>Password *
     <input type="password" name="password" required/>
     </label>
   </div>
 
-  <div class="field">
+  <div class="choice-field">
     <p>
       I am interested in:
     </p>
@@ -39,20 +48,21 @@
     <input type="radio" name="gender" value="female"> Womenswear
   </div>
 
-<div class="field">
-  <input type="checkbox" name="finalchoices" value="Signup"> I hereby sign up to become a member, and confirm that I accept the membership policy and that I have read and understand the privacy policy<br>
-  <input type="checkbox" name="finalchoices" value="Subscription">Subscribe to newsletter<br>
-</div>
+  <div class="choice-field">
+    <input type="checkbox" name="finalchoices" value="Signup"> I hereby sign up to become a member, and confirm that I accept the membership policy and that I have read and understand the privacy policy<br>
+    <input type="checkbox" name="finalchoices" value="Subscription">Subscribe to newsletter<br>
+  </div>
 
 
   <div class="field">
+  </div>
     <button>Submit</button>
   </div>
 
 
-
-
 </form>
+
+</div>
 
 </body>
 </html>

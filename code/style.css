@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  background: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.field, .header {
+  padding: 8px;
+}
+
+form {
+  font-family: Helvetica;
+  width: 400px;
+  height: auto;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.33333em;
+}
+
+.field, .choice-field, p {
+  font-size: 13px;
+  line-height: 21px;
+
+}
+
+input,
+textarea {
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+
+button {
+  display: inline-block;
+  float: right;
+  margin: 0;
+  max-width: 100%;
+  min-width: 139px;
+  padding: 7px 9px;
+  position: relative;
+  text-align: center;
+  vertical-align: baseline;
+  width: 50%;
+  border-radius: 0;
+  background-color: #000;
+  color: #ebebeb;
+  border: 0;
+  line-height: 23px;
+
+}
