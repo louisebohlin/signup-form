@@ -29,7 +29,7 @@ h2 {
   line-height: 1.33333em;
 }
 
-.field, .choice-field-1, .choice-field-2, p {
+.field, .choice-field, p {
   font-size: 13px;
   line-height: 21px;
 
@@ -42,13 +42,8 @@ textarea {
   border: 1px solid #ccc;
 }
 
-.choice-field-1 {
-  padding: 5px 10px;
-  width: 100%;
-}
-
-.choice-field-2 {
-  padding: 5px 10px;
+.choice-field {
+  padding: 7px 10px;
   width: 100%;
 }
 
