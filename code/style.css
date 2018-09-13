@@ -29,7 +29,7 @@ h2 {
   line-height: 1.33333em;
 }
 
-.field, .choice-field, p {
+.field, .choice-field-1, .choice-field-2, p {
   font-size: 13px;
   line-height: 21px;
 
@@ -42,6 +42,22 @@ textarea {
   border: 1px solid #ccc;
 }
 
+.choice-field-1 {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+.choice-field-2 {
+  padding: 5px 10px;
+  width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"]{
+  display: inline;
+  width: auto;
+  margin-right: 7px;
+}
 
 button {
   display: inline-block;
