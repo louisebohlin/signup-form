@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<form action="http://httpbin.org/anything" method="post">
+
+  <div class="field">
+    <label>First name
+    <input type="text" name="firstname" required/>
+    </label>
+  </div>
+
+  <div class="field">
+    <label>Last name
+    <input type="text" name="lastname" required/>
+    </label>
+  </div>
+
+  <div class="field">
+    <label>Email adress
+    <input type="email" name="email" required/>
+    </label>
+  </div>
+
+  <div class="field">
+    <label>Password
+    <input type="password" name="password" required/>
+    </label>
+  </div>
+
+  <div class="field">
+    <p>
+      I am interested in:
+    </p>
+    <input type="radio" name="gender" value="male"> Menswear
+    <input type="radio" name="gender" value="female"> Womenswear
+  </div>
+
+<div class="field">
+  <input type="checkbox" name="finalchoices" value="Signup"> I hereby sign up to become a member, and confirm that I accept the membership policy and that I have read and understand the privacy policy<br>
+  <input type="checkbox" name="finalchoices" value="Subscription">Subscribe to newsletter<br>
+</div>
+
+
+  <div class="field">
+    <button>Submit</button>
+  </div>
+
+
+
+
+</form>
+
+</body>
+</html>
